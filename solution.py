@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
 
 chat_id = 425154307 # Ваш chat ID, не меняйте название переменной
@@ -11,4 +10,4 @@ def solution(x_success: int,
     # Измените код этой функции
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
-    return (y_success/y_cnt - x_success/x_cnt) > 0 
+    return (y_success/y_cnt - x_success/x_cnt) > 0 and (y_cnt >= x_cnt) 
